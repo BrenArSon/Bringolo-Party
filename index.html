@@ -5,65 +5,104 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Bringolo Party – 2e édition</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="swiper-bundle.min.css" />
 </head>
 <body>
+
   <header>
     <h1>🎉 Bringolo Party – 2ᵉ édition 🎉</h1>
     <p>Samedi 30 août 2025 • Bringolo</p>
   </header>
 
-  <section class="affiche">
-    <h2>🖼️ Affiche officielle</h2>
-    <img src="img/affiche_2025.jpg" alt="Affiche Bringolo Party 2025" />
-  </section>
+  <main>
+    <section class="intro">
+  <h2>🖼️ Affiche officielle</h2>
+  <img src="img/affiche_2025.jpg" alt="Affiche Bringolo Party 2025" class="affiche" />
+</section>
 
-  <section class="lineup">
-    <h2>🎶 Artistes programmés</h2>
-    <ul>
-      <li><strong>BACK OUEST</strong> – Rock celtique</li>
-      <li><strong>MARACUJAH</strong> – Reggae rock</li>
-      <li><strong>Tremplin</strong> – Annonce à venir</li>
-      <li><strong>DJ set</strong> – Eurodance et plus si affinités</li>
-    </ul>
-  </section>
 
-  <section class="video">
-    <h2>🎥 Aftermovie 2024</h2>
-    <a href="https://www.youtube.com/watch?v=6LCHdIs4yJU" target="_blank">
-      <img 
-        src="https://img.youtube.com/vi/6LCHdIs4yJU/hqdefault.jpg" 
-        alt="Voir l'aftermovie sur YouTube" 
-        style="max-width:100%; border-radius:10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" />
-    </a>
-  </section>
+    <section class="lineup">
+      <h2>🎶 Artistes programmés</h2>
+      <ul>
+        <li><strong>BACK OUEST</strong> – Rock celtique</li>
+        <li><strong>MARACUJAH</strong> – Reggae rock</li>
+        <li><strong>Tremplin</strong> – Annonce à venir</li>
+        <li><strong>DJ set</strong> – Eurodance et plus</li>
+      </ul>
+    </section>
 
-  <section class="galerie">
-    <h2>📸 Galerie photo</h2>
-    <p>La galerie photo sera ajoutée prochainement.</p>
-  </section>
+    <section class="video">
+      <h2>🎥 Aftermovie 2024</h2>
+      <a href="https://www.youtube.com/watch?v=6LCHdIs4yJU" target="_blank">
+        <img 
+          src="https://img.youtube.com/vi/6LCHdIs4yJU/hqdefault.jpg" 
+          alt="Voir l'aftermovie sur YouTube" 
+          class="video-thumb" />
+      </a>
+    </section>
 
-  <section class="infos">
-    <h2>ℹ️ Infos pratiques</h2>
-    <ul>
-      <li>🎟️ Entrée : 10€ (sur place)</li>
-      <li>🍔 Buvette et restauration sur place</li>
-      <li>📍 Lieu : Bringolo, Bretagne</li>
-    </ul>
-  </section>
+    <section class="galerie">
+      <h2>📸 Galerie photo</h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- 9 photos -->
+          <div class="swiper-slide"><img src="img/photo1.jpg" alt="Photo 1"></div>
+          <div class="swiper-slide"><img src="img/photo2.jpg" alt="Photo 2"></div>
+          <div class="swiper-slide"><img src="img/photo3.jpg" alt="Photo 3"></div>
+          <div class="swiper-slide"><img src="img/photo4.jpg" alt="Photo 4"></div>
+          <div class="swiper-slide"><img src="img/photo5.jpg" alt="Photo 5"></div>
+          <div class="swiper-slide"><img src="img/photo6.jpg" alt="Photo 6"></div>
+          <div class="swiper-slide"><img src="img/photo7.jpg" alt="Photo 7"></div>
+          <div class="swiper-slide"><img src="img/photo8.jpg" alt="Photo 8"></div>
+          <div class="swiper-slide"><img src="img/photo9.jpg" alt="Photo 9"></div>
+        </div>
+        <!-- Pagination / navigation -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
 
-  <section class="contact">
-    <h2>📞 Contact & Réseaux</h2>
-    <p>Tél : <a href="tel:+33604108427">06 04 10 84 27</a></p>
-    <p>Email : <a href="mailto:bren-ar-son@hotmail.com">bren-ar-son@hotmail.com</a></p>
-    <p>
-      Suivez-nous :
-      <a href="https://www.facebook.com/profile.php?id=100066314037055" target="_blank">Facebook</a> |
-      <a href="https://www.instagram.com/bringoloparty_/" target="_blank">Instagram</a>
-    </p>
-  </section>
+    <section class="infos">
+      <h2>ℹ️ Infos pratiques</h2>
+      <ul>
+        <li>🎟️ Entrée : 10€ (sur place)</li>
+        <li>🍔 Buvette et restauration sur place</li>
+        <li>📍 Bringolo, Bretagne</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>📞 Contact & Réseaux</h2>
+      <p>Tél : <a href="tel:+33604108427">06 04 10 84 27</a></p>
+      <p>Email : <a href="mailto:bren-ar-son@hotmail.com">bren-ar-son@hotmail.com</a></p>
+      <p>
+        Suivez-nous :
+        <a href="https://www.facebook.com/profile.php?id=100066314037055" target="_blank">Facebook</a> |
+        <a href="https://www.instagram.com/bringoloparty_/" target="_blank">Instagram</a>
+      </p>
+    </section>
+  </main>
 
   <footer>
     <p>© 2025 Bringolo Party – Tous droits réservés</p>
   </footer>
+
+  <script src="swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      pagination: { el: '.swiper-pagination', clickable: true },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false
+      }
+    });
+  </script>
+
 </body>
 </html>
